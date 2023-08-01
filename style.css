@@ -1,0 +1,82 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #e6e5e5;
+}
+@font-face {
+  font-family: "montserrat";
+  font-style: normal;
+  font-weight: 0;
+  src: local('montserrat'), url(Comfortaa/Comfortaa-VariableFont_wght.ttf)
+}
+h1 {
+  display: flex;
+  font-family: "montserrat",cursive;
+}
+ul li a {
+  padding: 0 10px;
+}
+ul {
+  list-style: none;
+}
+a {
+  color: #0071fb;
+  text-decoration: none;
+}
+button {
+  border: 0px solid #0071fb;
+  background-color: #006eff;
+  color: #ffffff;
+  border-radius: 4px;
+  width: 60px;
+  height: 25px;
+}
+.login {
+  color: #0071fb;
+  border: 1px solid #0071fb;
+  background-color: #ffffff;
+}
+.row-container-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 10px solid #e6e5e5;
+  border-top: 40px solid #e6e5e5;
+  background-color: #ffffff;
+  padding: 10px 30px 10px 30px;
+  font-size: medium;
+}
+.row-container-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 10px solid #e6e6e5;
+  background-color: #ffffff;
+  padding: 10px 30px 10px 30px;
+}
+.navigation-container-1 {
+  display: flex;
+}
+.navigation-container-3 {
+  display: flex;
+  align-items: center;
+}
+.row-container-3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 10px solid #e6e5e5;
+  background-color: #ffffff;
+  padding: 10px 30px 10px 30px;
+}
+.row-container-4 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 10px solid #e6e5e5;
+  background-color: #ffffff;
+  padding: 10px 30px 10px 30px;
+}
